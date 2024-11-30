@@ -1,5 +1,6 @@
 ###    이미지에서 포트홀(원)을 검출합니다.
-```
+
+```python
 def detect_potholes(img):
     """
     이미지에서 포트홀(원)을 검출합니다.
@@ -36,7 +37,7 @@ def detect_potholes(img):
 ```
 ###    이미지를 로드하고 전처리합니다.
 
-```
+```python
 def load_and_preprocess_image(img_path, img_size=(256, 256)):
     """
     이미지를 로드하고 전처리합니다.
