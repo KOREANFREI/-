@@ -16,7 +16,9 @@ https://www.cvlibs.net/datasets/kitti/의 무료제공 데이터셋 사용(상�
 이미지 크기 조정: cv2.resize 함수를 사용하여 이미지 크기를 조정합니다.
 도로 영역 분할: HSV 색상 공간에서 도로 색상 범위를 지정하고, cv2.inRange 함수를 사용하여 마스크를 생성합니다.
 형태학적 연산: cv2.morphologyEx 함수를 사용하여 노이즈를 제거하고 마스크를 개선합니다.
-![화면 캡처 2024-11-30 014035](https://github.com/user-attachments/assets/c082c362-5cde-429e-9145-f035e6c1f65a)
+
+![화면 캡처 2024-11-30 014126](https://github.com/user-attachments/assets/423ef222-514a-4933-8aad-d02d3a97b47e)
+
 
 
 2. 포트홀 감지:
