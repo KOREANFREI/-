@@ -38,8 +38,7 @@ def load_and_preprocess_image(img_path, img_size=(256, 256)):
         print(f"오류 발생 {img_path}: {e}")
         return None, None
 ```
-## 이전에 크롭 되었던 전처리된 데이터들을 불러와서 픽셀이 튀는 부분을 검출하여 초록색 원으로 나타냅니다 
-
+## 이전에 크롭 되었던이미지들의 전처리를 시행합니다 
 ```
 def preprocess_training_images(data_dir, img_size=(512, 256)):
     """
